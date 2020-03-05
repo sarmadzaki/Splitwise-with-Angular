@@ -4,15 +4,6 @@
 
 export const environment = {
   production: false,
-  firebaseConfig: {
-    apiKey: "AIzaSyAGCrXDeabeX2GI2dvaVS0imnUuXHXcC04",
-    authDomain: "splitwise-26d16.firebaseapp.com",
-    databaseURL: "https://splitwise-26d16.firebaseio.com",
-    projectId: "splitwise-26d16",
-    storageBucket: "splitwise-26d16.appspot.com",
-    messagingSenderId: "561100292350",
-    appId: "1:561100292350:web:24cdeb46821f8aa38625af",
-    measurementId: "G-28FX4DG5QS"
   },
 };
 
