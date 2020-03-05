@@ -1,0 +1,44 @@
+.login-card {
+    .box {
+        @media screen and (max-width: 1366px) {
+            width: 40%;
+        }
+        @media screen and (max-width: 1200px) {
+            width: 45%;
+        }
+        @media screen and (max-width: 1024px) {
+            width: 50%;
+        }
+        @media screen and (max-width: 900px) {
+            width: 55%;
+        }
+        @media screen and (max-width: 768px) {
+            width: 60%;
+        }
+        @media screen and (max-width: 600px) {
+            width: 60%;
+        }
+        @media screen and (max-width: 480px) {
+            width: 65%;
+        }
+        @media screen and (max-width: 320px) {
+            width: 70%;
+        }
+        background: linear-gradient(90deg, rgb(160, 157, 210) 0%, rgba(128,187,239,1) 35%, rgba(0,212,255,1) 100%);
+        .full-width-input {
+            width: 100%;
+        }
+        .card-header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .btn-block {
+            color: white;
+            border-color: white;
+        }
+        .full-width{
+                width: 100%;
+        }
+    }
+}

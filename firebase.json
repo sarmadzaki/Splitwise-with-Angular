@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "splitwise",
+      "public": "dist/splitwise",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

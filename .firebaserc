@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "splitwise-26d16": {
+      "hosting": {
+        "splitwise": [
+          "splitwise-26d16"
+        ]
+      }
+    }
+  }
+}

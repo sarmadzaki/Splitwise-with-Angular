@@ -1,6 +1,10 @@
-<mat-toolbar>
-  <span>Splitwise</span>
+<mat-toolbar color="primary" class="app-header">
+  <div class="logo">
+    Splitwise App
+  </div>
+  <span class="nav-tool-items">
+    <a mat-button routerLink="login" routerLinkActive="active">Log in</a>
+    <a mat-button routerLink="register" routerLinkActive="active">Register</a>
+  </span>
 </mat-toolbar>
-<button mat-button>Click me!</button>
-
-<router-outlet></router-outlet>
+  <router-outlet></router-outlet>
