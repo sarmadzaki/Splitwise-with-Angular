@@ -3,8 +3,16 @@
     Splitwise App
   </div>
   <span class="nav-tool-items">
-    <a mat-button routerLink="login" routerLinkActive="active">Log in</a>
-    <a mat-button routerLink="register" routerLinkActive="active">Register</a>
+    <a mat-button [matMenuTriggerFor]="menu" *ngIf="userData; else loginBlock">
+      Hello {{userData.displayName}}
+    </a>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item (click)="authServices.Sigout()">Logout</button>
+    </mat-menu>
+    <ng-template #loginBlock>
+      <a mat-button routerLink="login" routerLinkActive="active">Log in</a>
+      <a mat-button routerLink="register" routerLinkActive="active">Register</a>
+    </ng-template>
   </span>
 </mat-toolbar>
   <router-outlet></router-outlet>
